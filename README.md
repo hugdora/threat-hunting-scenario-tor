@@ -78,7 +78,8 @@ DeviceProcessEvents
 | project Timestamp, DeviceName, AccountName, ActionType, FileName, FolderPath, SHA256, ProcessCommandLine  
 | order by Timestamp desc
 ```
-<img width="940" height="444" alt="image" src="https://github.com/user-attachments/assets/a04313cb-3e8c-43e2-b7fd-5bb57a65fa7a" />
+<img width="2880" height="947" alt="image" src="https://github.com/user-attachments/assets/41da3e74-6b9c-46cb-a0e2-67353ca856a6" />
+
 
 
 ---
@@ -131,7 +132,7 @@ DeviceNetworkEvents
 ### 4. Network Connection - TOR Network
 
 - **Timestamp:** `2025-12-11T44:18:01.1246358Z`
-- **Event:** A network connection to IP `176.198.159.33` on port `9001` by user "employee" was established using `tor.exe`, confirming TOR browser network activity.
+- **Event:** A network connection to IP `9.169.162.6` on port `9001` by user "employee" was established using `tor.exe`, confirming TOR browser network activity.
 - **Action:** Connection success.
 - **Process:** `tor.exe`
 - **File Path:** `c:\users\cyberdora\Downloads\tor browser\browser\torbrowser\tor\tor.exe`
