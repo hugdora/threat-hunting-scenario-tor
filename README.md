@@ -41,7 +41,9 @@ DeviceFileEvents
 | order by Timestamp desc  
 | project Timestamp, DeviceName, ActionType, FileName, FolderPath, SHA256, Account = InitiatingProcessAccountName
 ```
-<img width="1212" alt="image" src="https://github.com/user-attachments/assets/71402e84-8767-44f8-908c-1805be31122d">
+<img width="2712" height="800" alt="image" src="https://github.com/user-attachments/assets/857a427b-4a1b-4928-a1cc-1eb170f166ce" />
+<img width="2685" height="840" alt="image" src="https://github.com/user-attachments/assets/5431a7d9-65bd-490b-bdb8-012368fe25e6" />
+
 
 ---
 
@@ -58,7 +60,8 @@ DeviceProcessEvents
 | where ProcessCommandLine contains "tor-browser-windows-x86_64-portable-14.0.1.exe"  
 | project Timestamp, DeviceName, AccountName, ActionType, FileName, FolderPath, SHA256, ProcessCommandLine
 ```
-<img width="1212" alt="image" src="https://github.com/user-attachments/assets/b07ac4b4-9cb3-4834-8fac-9f5f29709d78">
+<img width="940" height="458" alt="image" src="https://github.com/user-attachments/assets/f37536ed-637a-452a-8131-13c1bb5e918f" />
+
 
 ---
 
@@ -75,7 +78,8 @@ DeviceProcessEvents
 | project Timestamp, DeviceName, AccountName, ActionType, FileName, FolderPath, SHA256, ProcessCommandLine  
 | order by Timestamp desc
 ```
-<img width="1212" alt="image" src="https://github.com/user-attachments/assets/b13707ae-8c2d-4081-a381-2b521d3a0d8f">
+<img width="940" height="444" alt="image" src="https://github.com/user-attachments/assets/a04313cb-3e8c-43e2-b7fd-5bb57a65fa7a" />
+
 
 ---
 
@@ -94,7 +98,9 @@ DeviceNetworkEvents
 | project Timestamp, DeviceName, InitiatingProcessAccountName, ActionType, RemoteIP, RemotePort, RemoteUrl, InitiatingProcessFileName, InitiatingProcessFolderPath  
 | order by Timestamp desc
 ```
-<img width="1212" alt="image" src="https://github.com/user-attachments/assets/87a02b5b-7d12-4f53-9255-f5e750d0e3cb">
+<img width="2835" height="1205" alt="image" src="https://github.com/user-attachments/assets/66e20f0d-326a-41f8-9db4-df5b4f3a6d53" />
+<img width="2745" height="1070" alt="image" src="https://github.com/user-attachments/assets/41b402f0-35af-4174-8f68-1af6ea4f53dd" />
+
 
 ---
 
@@ -129,6 +135,8 @@ DeviceNetworkEvents
 - **Action:** Connection success.
 - **Process:** `tor.exe`
 - **File Path:** `c:\users\employee\desktop\tor browser\browser\torbrowser\tor\tor.exe`
+
+
 
 ### 5. Additional Network Connections - TOR Browser Activity
 
